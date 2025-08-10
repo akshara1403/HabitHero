@@ -1,0 +1,65 @@
+.homepage-container {
+  background: #fff;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.homepage-header {
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: #20232a;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 220px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.homepage-header h1 {
+  font-size: 2rem;
+  font-family: 'Georgia', serif;
+  margin-left: -140px;
+}
+
+.red {
+  color: red;
+}
+
+.homepage-content {
+  margin-top: 80px;
+}
+
+.homepage-content h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.homepage-content p {
+  font-size: 1rem;
+  text-align: center;
+  text-justify: auto;
+  margin-bottom: 20px;
+}
+
+.start-button {
+  background-color: red;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.homepage-image img {
+  max-width: 80%;
+  height: auto;
+  margin-top: 20px;
+}
+

@@ -1,0 +1,111 @@
+.analytics-container {
+    background: #fff;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  .analytics-topbar {
+    position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 70px;
+      background-color: #20232a;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding-left: 220px;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .analytics-topbar h1 {
+    font-size: 2rem;
+    font-family: 'Georgia', serif;
+    margin-left: -1000px;
+  }
+  
+  .app-title {
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .red-text {
+    color: red;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 15px;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    color: #353a45;
+  }
+  
+  /* Main Content */
+  .main-content {
+    margin-left: 220px;
+    margin-top: 70px;
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+  }
+  
+  .analytics-card {
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  .start-button {
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  .submit-button {
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
