@@ -1,4 +1,4 @@
-# Habit Hero 🦸‍♀️🦸‍♂️
+# Habit Hero 
 
 **Habit Hero** is a habit tracking web app that helps users build and maintain good habits through regular check-ins and analytics. Built with **React** and **FastAPI**, it provides a clean UI, habit analytics, and a check-in system.
 
@@ -6,7 +6,7 @@
 
 ## 🔧 Setup Instructions
 
-### 🐍 Backend (FastAPI + SQLite)
+###  Backend (FastAPI + SQLite)
 
 1. **Clone the Repository**
    ```bash
@@ -34,7 +34,7 @@
 
 ---
 
-### ⚛️ Frontend (React)
+###  Frontend (React)
 
 1. Open a new terminal and go to the frontend folder:
    ```bash
@@ -55,25 +55,25 @@
 
 ---
 
-## 🌟 Features
+##  Features
 
-✅ Add new habits with:
+1. Add new habits with:
 - Name
 - Description
 - Frequency (Daily, Weekly, Monthly)
 - Category
 - Start date
 
-✅ View and manage all habits  
-✅ Mark daily check-ins  
-✅ See per-habit analytics:
-- 🔥 Current streak
-- 🎯 Success rate (based on frequency and days since start)
-- 📅 Best check-in day
+2. View and manage all habits  
+3. Mark daily check-ins  
+4. See per-habit analytics:
+-  Current streak
+-  Success rate (based on frequency and days since start)
+-  Best check-in day
 
-✅ Clean single-page layout with top & side nav  
-✅ Persistent data using SQLite  
-✅ Illustrative homepage with navigation to main app
+5. Clean single-page layout with top & side nav  
+6. Persistent data using SQLite  
+7. Illustrative homepage with navigation to main app
 
 ---
 
@@ -112,6 +112,6 @@ habit-hero/
 
 ---
 
-## ✨ Credits
+##  Credits
 
 Created by **Akshara Surendran** as a full-stack project.
